@@ -1,0 +1,72 @@
+.chatIcon{
+    position: fixed;
+    bottom: 25px;
+    right:35px;
+    color:black;
+    width:105px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px 10px;
+}
+
+.chatBox{
+    position: fixed;
+    bottom: 25px;
+    right:35px;
+    width:350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px 10px;
+    overflow-y: auto;
+}
+
+.chatBox li{
+    border-bottom: 2px solid gray;
+    padding: 10px 5px;
+    list-style: none;
+}
+.chatBox h4{
+    background-color: gray;
+    text-align: center;
+    height: 40px;
+    padding:10px
+}
+
+
+.chatBox::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.chatBox::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.chatBox::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+button{
+    width:auto;
+}
+
+.chatWindow{
+    position: fixed;
+    bottom: 25px;
+    right:35px;
+    width:350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px 10px;
+    overflow-y: auto;
+}
